@@ -2,6 +2,13 @@
 
 **Código da Disciplina**: IBM8936<br>
 
+## Integrantes
+- Igor Costa
+- Ian Dias
+- Bernardo Meireles
+- Lucas Holanda
+- Victor Coutinho
+
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
