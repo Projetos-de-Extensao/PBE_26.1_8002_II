@@ -214,4 +214,5 @@ Garante que o estágio esteja regular, evitando problemas acadêmicos e legais, 
 
 ### Fontes e Referências
 * [Lei do Estágio (Lei nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm)
-* [OWASP - Validação de Dados](
+* [OWASP - Validação de Dados](https://owasp.org/www-community/Input_Validation)
+* [OWASP – Upload de Arquivos](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
