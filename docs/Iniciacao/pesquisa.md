@@ -177,56 +177,41 @@ A distinção entre obrigatório e não obrigatório é definida pela Lei nº 11
 
 ---
 
-# Validação de Documentos Exigidos 📑
+# Validação de Documentos Exigidos
 
-[cite_start]Este documento detalha o processo de verificação e conformidade para sistemas de gestão de documentos, com foco em fluxos de estágio. [cite: 1, 4]
+## 1. Conceito
+A validação dos documentos exigidos é o processo de verificação dos arquivos enviados pelo usuário, garantindo que estejam corretos, completos e de acordo com as regras do sistema. Em um sistema de estágio, essa etapa assegura que o aluno atende aos requisitos acadêmicos e legais.
 
----
+## 2. Objetivos
+* Garantir autenticidade dos documentos;
+* Evitar erros e fraudes;
+* Validar conformidade com regras da instituição;
+* Automatizar o processo de aprovação.
 
-## 1. Conceito 
-[cite_start]A validação é o processo de verificação dos arquivos enviados pelo usuário, garantindo que estejam: [cite: 2, 3]
-* [cite_start]**Corretos:** Informações condizentes com o esperado. [cite: 3]
-* [cite_start]**Completos:** Sem falta de páginas ou dados essenciais. [cite: 3]
-* [cite_start]**Em conformidade:** De acordo com as regras de negócio e do sistema. [cite: 3]
+## 3. Documentos Comuns
+* Termo de Compromisso de Estágio (TCE);
+* Comprovante de matrícula;
+* Documento de identidade;
+* Plano de atividades;
+* Declaração da empresa.
 
-[cite_start]Em sistemas de estágio, essa etapa é crucial para assegurar que o aluno atende aos requisitos acadêmicos e legais vigentes. [cite: 4]
+## 4. Etapas da Validação
+1. **Upload**: Envio do documento pelo sistema.
+2. **Validação Técnica**: Verifica formato, tamanho e integridade do arquivo.
+3. **Validação de Conteúdo**: Análise automática ou manual das informações.
+4. **Verificação de Regras**: Confirma se o documento está correto e atualizado.
+5. **Status**: O documento pode ser classificado como **Aprovado**, **Rejeitado** ou **Pendente**.
 
-## 2. Objetivos Principais 
-* [cite_start]**Autenticidade:** Garantir que os documentos são legítimos. [cite: 6]
-* [cite_start]**Segurança:** Evitar erros operacionais e tentativas de fraude. [cite: 7]
-* [cite_start]**Conformidade:** Validar se os arquivos seguem as regras da instituição de ensino. [cite: 8]
-* [cite_start]**Eficiência:** Automatizar o processo de aprovação para dar agilidade ao fluxo. [cite: 9]
+## 5. Validação no Back-End
+* **Dados**: Validação de campos obrigatórios, datas e CPF;
+* **Arquivos**: Verificação de tipo permitido e tamanho máximo;
+* **Regras de Negócio**: Confirmação se o aluno está matriculado e dentro do prazo.
 
-## 3. Fluxo de Validação 
-
-[cite_start]O processo é dividido em cinco etapas fundamentais: [cite: 16]
-
-| Etapa | Descrição |
-| :--- | :--- |
-| **1. Upload** | [cite_start]O envio do arquivo para o servidor do sistema. [cite: 17, 18] |
-| **2. Validação Técnica** | [cite_start]Verificação de formato (PDF, JPG), tamanho (MB) e integridade do arquivo. [cite: 19, 20] |
-| **3. Validação de Conteúdo** | [cite_start]Análise das informações (via OCR/IA ou manual). [cite: 21, 22] |
-| **4. Verificação de Regras** | [cite_start]Confirmação se o documento é atual e atende aos prazos. [cite: 23, 24] |
-| **5. Definição de Status** | [cite_start]O documento é marcado como **Aprovado**, **Rejeitado** ou **Pendente**. [cite: 25, 26, 27, 28] |
-
-## 4. Requisitos de Back-End 
-[cite_start]Para uma implementação robusta, o sistema deve validar: [cite: 29]
-
-* [cite_start]**Dados de Input:** CPF válido, datas coerentes e preenchimento de campos obrigatórios. [cite: 30]
-* [cite_start]**Segurança de Arquivos:** Restrição de tipos permitidos e limite de tamanho para evitar ataques ou sobrecarga. [cite: 31]
-* [cite_start]**Regras de Negócio:** Verificação se o aluno possui matrícula ativa e se o envio está dentro do prazo legal. [cite: 32]
-
-## 5. Documentos Comuns no Processo 
-* [cite_start]Termo de Compromisso de Estágio (TCE) [cite: 11]
-* [cite_start]Comprovante de matrícula [cite: 12]
-* [cite_start]Documento de identidade (RG/CNH) [cite: 13]
-* [cite_start]Plano de atividades [cite: 14]
-* [cite_start]Declaração da empresa concedente [cite: 15]
+## 6. Importância
+Garante que o estágio esteja regular, evitando problemas acadêmicos e legais, além de organizar o processo dentro do sistema.
 
 ---
 
-## Referências e Fontes 
-* [cite_start][Lei do Estágio (Nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm) [cite: 36, 37]
-* [cite_start][OWASP - Guia de Validação de Dados](https://owasp.org/www-community/Input_Validation) [cite: 38, 39]
-* [cite_start][OWASP - File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html) [cite: 40, 41]
-* [cite_start]Material Acadêmico - IBMEC [cite: 42]
+### Fontes e Referências
+* [Lei do Estágio (Lei nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm)
+* [OWASP - Validação de Dados](
