@@ -3,8 +3,6 @@ id: pesquisa
 title: Pesquisa
 ---
 
-# Pesquisa
-
 ---
 
 # Normas Acadêmicas do IBMEC
@@ -179,84 +177,109 @@ A distinção entre obrigatório e não obrigatório é definida pela Lei nº 11
 
 # Validação de Documentos Exigidos
 
-## 1. Conceito
+## Conceito
+
 A validação dos documentos exigidos é o processo de verificação dos arquivos enviados pelo usuário, garantindo que estejam corretos, completos e de acordo com as regras do sistema. Em um sistema de estágio, essa etapa assegura que o aluno atende aos requisitos acadêmicos e legais.
 
-## 2. Objetivos
-* Garantir autenticidade dos documentos;
-* Evitar erros e fraudes;
-* Validar conformidade com regras da instituição;
-* Automatizar o processo de aprovação.
+## Objetivos
 
-## 3. Documentos Comuns
-* Termo de Compromisso de Estágio (TCE);
-* Comprovante de matrícula;
-* Documento de identidade;
-* Plano de atividades;
-* Declaração da empresa.
+- Garantir autenticidade dos documentos;
+- Evitar erros e fraudes;
+- Validar conformidade com as regras da instituição;
+- Automatizar o processo de aprovação.
 
-## 4. Etapas da Validação
-1. **Upload**: Envio do documento pelo sistema.
-2. **Validação Técnica**: Verifica formato, tamanho e integridade do arquivo.
-3. **Validação de Conteúdo**: Análise automática ou manual das informações.
-4. **Verificação de Regras**: Confirma se o documento está correto e atualizado.
-5. **Status**: O documento pode ser classificado como **Aprovado**, **Rejeitado** ou **Pendente**.
+## Documentos Comuns
 
-## 5. Validação no Back-End
-* **Dados**: Validação de campos obrigatórios, datas e CPF;
-* **Arquivos**: Verificação de tipo permitido e tamanho máximo;
-* **Regras de Negócio**: Confirmação se o aluno está matriculado e dentro do prazo.
+- Termo de Compromisso de Estágio (TCE);
+- Comprovante de matrícula;
+- Documento de identidade;
+- Plano de atividades;
+- Declaração da empresa.
 
-## 6. Importância
+## Etapas da Validação
+
+### 1. Upload
+
+Envio do documento pelo sistema.
+
+### 2. Validação Técnica
+
+Verifica formato, tamanho e integridade do arquivo.
+
+### 3. Validação de Conteúdo
+
+Análise automática ou manual das informações.
+
+### 4. Verificação de Regras
+
+Confirma se o documento está correto e atualizado.
+
+### 5. Status
+
+- ✅ **Aprovado**
+- ❌ **Rejeitado**
+- ⏳ **Pendente**
+
+## Validação no Back-End
+
+- **Dados:** Validação de campos obrigatórios, datas e CPF;
+- **Arquivos:** Verificação de tipo permitido e tamanho máximo;
+- **Regras de Negócio:** Confirmação se o aluno está matriculado e dentro do prazo. Para mais detalhes sobre regras de negócio e integração via APIs, ver seção [Pesquisa de Aplicações](#pesquisa-de-aplicações).
+
+## Importância
+
 Garante que o estágio esteja regular, evitando problemas acadêmicos e legais, além de organizar o processo dentro do sistema.
 
----
+## Fontes Utilizadas
 
-### Fontes e Referências
-* [Lei do Estágio (Lei nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm)
-* [OWASP - Validação de Dados](https://owasp.org/www-community/Input_Validation)
-* [OWASP – Upload de Arquivos](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
+- [Lei do Estágio (Lei nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm)
+- [OWASP – Validação de Dados](https://owasp.org/www-community/Input_Validation)
+- [OWASP – Upload de Arquivos](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
 
 ---
 
 # Pesquisa de Aplicações
 
-## 1. Conceito
+## Conceito
+
 A pesquisa de aplicações consiste no estudo de sistemas e soluções já existentes no mercado, com o objetivo de identificar funcionalidades, tecnologias e boas práticas que podem ser aplicadas no desenvolvimento de um novo sistema. No contexto de um sistema de estágio, essa análise ajuda a entender como outras plataformas gerenciam processos semelhantes.
 
-## 2. Objetivos
-* Identificar funcionalidades essenciais;
-* Analisar boas práticas de desenvolvimento;
-* Evitar erros já cometidos por outros sistemas;
-* Servir como base para modelagem do sistema;
+## Objetivos
 
-## 3. Exemplos de Aplicações
-* Sistemas acadêmicos (portais de estágio);
-* Plataformas de recrutamento (ex: LinkedIn);
-* Sistemas de gestão empresarial (ERP);
-* Plataformas de vagas e estágios (ex: CIEE);
+- Identificar funcionalidades essenciais;
+- Analisar boas práticas de desenvolvimento;
+- Evitar erros já cometidos por outros sistemas;
+- Servir como base para modelagem do sistema.
 
-## 4. Funcionalidades Observadas
-* Cadastro de alunos e empresas;
-* Upload e validação de documentos;
-* Controle de vagas e candidaturas;
-* Acompanhamento do estágio;
-* Notificações e status do processo;
+## Exemplos de Aplicações
 
-## 5. Aplicação no Back-End
-* Estruturação de APIs para integração;
-* Uso de banco de dados para controle de usuários e documentos;
-* Implementação de regras de negócio (validações);
-* Controle de autenticação e autorização;
+- Sistemas acadêmicos (portais de estágio);
+- Plataformas de recrutamento (ex: LinkedIn);
+- Sistemas de gestão empresarial (ERP);
+- Plataformas de vagas e estágios (ex: CIEE).
 
-## 6. Importância
+## Funcionalidades Observadas
+
+- Cadastro de alunos e empresas;
+- Upload e validação de documentos (ver seção [Validação de Documentos Exigidos](#validação-de-documentos-exigidos));
+- Controle de vagas e candidaturas;
+- Acompanhamento do estágio;
+- Notificações e status do processo.
+
+## Aplicação no Back-End
+
+- **Estruturação de APIs** para integração entre os módulos do sistema;
+- **Banco de dados** para controle de usuários e documentos;
+- **Controle de autenticação e autorização** de acesso;
+- **Implementação de regras de negócio** (ver seção [Validação de Documentos Exigidos](#validação-de-documentos-exigidos)).
+
+## Importância
+
 A pesquisa de aplicações permite desenvolver um sistema mais eficiente, seguro e alinhado com as necessidades reais dos usuários, reduzindo retrabalho e melhorando a qualidade final do projeto.
 
----
+## Fontes Utilizadas
 
-### Fontes Utilizadas
-* [LinkedIn](https://www.linkedin.com)
-* [CIEE](https://www.ciee.org.br)
-* [Guia de desenvolvimento de APIs REST](https://restfulapi.net)
-* [OWASP - Boas práticas de desenvolvimento](https://owasp.org)
-* Material acadêmico IBMEC
+- [LinkedIn](https://www.linkedin.com)
+- [CIEE](https://www.ciee.org.br)
+- [Guia de desenvolvimento de APIs REST](https://restfulapi.net)
+- [OWASP – Boas práticas de desenvolvimento](https://owasp.org)
