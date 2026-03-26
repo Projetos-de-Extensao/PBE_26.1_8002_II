@@ -111,14 +111,6 @@ O estágio, conforme estabelecido pela **Lei Federal nº 11.788/2008**, é defin
 
 ## Pirâmide Hierárquica
 
-```
-LDB (Lei de Diretrizes e Bases da Educação)
-        ↓
-   MEC e CNE
-        ↓
-      DCNs
-```
-
 - **LDB** → Constituição da educação. Estabelece as bases gerais e dita o que o governo federal deve estabelecer como competências e diretrizes para a educação básica e superior.
 - **MEC e CNE** → O Ministério da Educação (MEC) é o órgão executivo. Dentro dele existe o Conselho Nacional de Educação (CNE), responsável por redigir as DCNs baseadas na LDB.
 - **DCNs** → São as normas obrigatórias que detalham o que os estudantes devem aprender e como os cursos devem ser estruturados.
