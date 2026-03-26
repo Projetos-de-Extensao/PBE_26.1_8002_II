@@ -216,3 +216,47 @@ Garante que o estágio esteja regular, evitando problemas acadêmicos e legais, 
 * [Lei do Estágio (Lei nº 11.788/2008)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm)
 * [OWASP - Validação de Dados](https://owasp.org/www-community/Input_Validation)
 * [OWASP – Upload de Arquivos](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
+
+---
+
+# Pesquisa de Aplicações
+
+## 1. Conceito
+A pesquisa de aplicações consiste no estudo de sistemas e soluções já existentes no mercado, com o objetivo de identificar funcionalidades, tecnologias e boas práticas que podem ser aplicadas no desenvolvimento de um novo sistema. No contexto de um sistema de estágio, essa análise ajuda a entender como outras plataformas gerenciam processos semelhantes.
+
+## 2. Objetivos
+* Identificar funcionalidades essenciais;
+* Analisar boas práticas de desenvolvimento;
+* Evitar erros já cometidos por outros sistemas;
+* Servir como base para modelagem do sistema;
+
+## 3. Exemplos de Aplicações
+* Sistemas acadêmicos (portais de estágio);
+* Plataformas de recrutamento (ex: LinkedIn);
+* Sistemas de gestão empresarial (ERP);
+* Plataformas de vagas e estágios (ex: CIEE);
+
+## 4. Funcionalidades Observadas
+* Cadastro de alunos e empresas;
+* Upload e validação de documentos;
+* Controle de vagas e candidaturas;
+* Acompanhamento do estágio;
+* Notificações e status do processo;
+
+## 5. Aplicação no Back-End
+* Estruturação de APIs para integração;
+* Uso de banco de dados para controle de usuários e documentos;
+* Implementação de regras de negócio (validações);
+* Controle de autenticação e autorização;
+
+## 6. Importância
+A pesquisa de aplicações permite desenvolver um sistema mais eficiente, seguro e alinhado com as necessidades reais dos usuários, reduzindo retrabalho e melhorando a qualidade final do projeto.
+
+---
+
+### Fontes Utilizadas
+* [LinkedIn](https://www.linkedin.com)
+* [CIEE](https://www.ciee.org.br)
+* [Guia de desenvolvimento de APIs REST](https://restfulapi.net)
+* [OWASP - Boas práticas de desenvolvimento](https://owasp.org)
+* Material acadêmico IBMEC
